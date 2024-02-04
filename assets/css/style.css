@@ -449,7 +449,7 @@ h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../img/isa-bg-3.jpg") top center;
+  background: url("../img/isa-bg.jpg") top center;
   background-size: cover;
   position: relative;
   margin-bottom: -70px;
@@ -1077,6 +1077,13 @@ section {
 /*--------------------------------------------------------------
 # Team
 --------------------------------------------------------------*/
+.team .row {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  /* Alinea las columnas en la parte superior */
+}
+
 .team .member {
   margin-bottom: 20px;
   overflow: hidden;
@@ -1088,6 +1095,8 @@ section {
 .team .member .member-img {
   position: relative;
   overflow: hidden;
+  height: 350px;
+  /* Ajusta la altura según tus necesidades */
 }
 
 .team .member .social {
@@ -1163,6 +1172,7 @@ section {
 # Pricing
 --------------------------------------------------------------*/
 .pricing .box {
+  flex: 0 0 300px;
   padding: 20px;
   background: #fff;
   text-align: center;
@@ -1170,6 +1180,12 @@ section {
   border-radius: 5px;
   position: relative;
   overflow: hidden;
+  max-width: 300px;
+  /* Establece un ancho máximo */
+  width: 100%;
+  /* Asegúrate de que el ancho sea del 100% del contenedor padre */
+  margin: 0 auto;
+  /* Centra horizontalmente */
 }
 
 .pricing h3 {
