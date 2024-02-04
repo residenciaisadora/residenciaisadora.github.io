@@ -1092,11 +1092,11 @@ section {
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.05);
 }
 
-.team .member .member-img {
-  position: relative;
-  overflow: hidden;
-  height: 350px;
-  /* Ajusta la altura según tus necesidades */
+.team .member .member-img img {
+  max-width: 100%;
+  /* Hace que la imagen sea responsiva */
+  height: auto;
+  /* Mantiene la proporción original de la imagen */
 }
 
 .team .member .social {
