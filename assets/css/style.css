@@ -574,7 +574,7 @@ section {
 
 .section-title p {
   margin-bottom: 0;
-  color: #919191;
+  color: #150517;
   font-size: 14px;
 }
 
@@ -1153,7 +1153,7 @@ section {
   display: block;
   font-size: 13px;
   font-weight: 400;
-  color: #aaaaaa;
+  color: #150517;
 }
 
 .team .member .member-info p {
@@ -1568,11 +1568,12 @@ section {
   position: relative;
   z-index: 2;
   text-align: center;
-  padding: 80px 0;
+  padding: 60px 0;
 }
 
 #footer .footer-top h3 {
-  font-size: 36px;
+  font-size: 28px;
+  /* Ajustado para reducir el tamaño de la fuente */
   font-weight: 700;
   color: #fff;
   position: relative;
@@ -1582,16 +1583,18 @@ section {
 }
 
 #footer .footer-top p {
-  font-size: 15;
+  font-size: 14px;
+  /* Ajustado para reducir el tamaño de la fuente */
   font-style: italic;
-  margin: 30px 0 0 0;
+  margin: 20px 0 0 0;
   padding: 0;
 }
 
 #footer .footer-top .footer-newsletter {
   text-align: center;
-  font-size: 15px;
-  margin-top: 30px;
+  font-size: 14px;
+  /* Ajustado para reducir el tamaño de la fuente */
+  margin-top: 20px;
 }
 
 #footer .footer-top .footer-newsletter form {
@@ -1616,8 +1619,9 @@ section {
   bottom: 0;
   border: 0;
   background: none;
-  font-size: 16px;
-  padding: 0 20px;
+  font-size: 14px;
+  /* Ajustado para reducir el tamaño de la fuente */
+  padding: 0 15px;
   background: #ff7f5d;
   color: #fff;
   transition: 0.3s;
@@ -1630,7 +1634,8 @@ section {
 }
 
 #footer .footer-top .social-links {
-  margin-top: 30px;
+  margin-top: 20px;
+  /* Ajustado para reducir el espacio superior */
 }
 
 #footer .footer-top .social-links a {
@@ -1658,8 +1663,10 @@ section {
   border-top: 1px solid #3b0e41;
   z-index: 2;
   position: relative;
-  padding-top: 40px;
-  padding-bottom: 40px;
+  padding-top: 10px;
+  /* Ajustado para reducir el padding top */
+  padding-bottom: 10px;
+  /* Ajustado para reducir el padding bottom */
 }
 
 #footer .copyright {
